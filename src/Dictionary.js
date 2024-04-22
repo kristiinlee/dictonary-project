@@ -35,6 +35,7 @@ export default function Dictionary() {
           return (
         <div className="Dictionary">
             <section>
+                <h1>What are you interested in exploring?</h1>
                 <form onSubmit={handleSubmit}> 
                     <input type="search" autoFocus={true} onChange={handleKeywordChange} />
                 </form>
